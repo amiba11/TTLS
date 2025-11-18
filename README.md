@@ -5,7 +5,7 @@
 #### 以下为对recbole的改动部分：          
 1.backbone 新增对模型原损失的修改               
 2.recbole_data  新增对rebole数据划分部分的修改。             
-3.recbole_train  新增evaluate_ttt( TTL 的 last item 熵减优化 )        
+3.recbole_train  trainer.py新增evaluate_ttt( TTL 的 last item 熵减优化 ) 其余为训练流程控制                      
 上述可以直接替换recbole原始文件。          
 #### 以下为新文件：           
 4.merge_model 模型合并，由quick_run启动            
